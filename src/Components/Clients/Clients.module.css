@@ -1,0 +1,25 @@
+.clients_main {
+  width: 100%;
+  height: auto;
+  background: #1195d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  padding: 4rem 5%;
+}
+.clients_main img {
+  width: 12.85rem;
+  height: 2.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .clients_main {
+    padding: 2rem 5%;
+  }
+  .clients_main img {
+    width: 10rem;
+    height: auto;
+  }
+}

@@ -58,6 +58,10 @@
   .header_bottom .logo {
     width: 8.7765rem;
   }
+  .header_contact {
+      flex-wrap: wrap;
+      align-items: center;
+  }
   .header_top .quote_btn {
     display: none;
   }
