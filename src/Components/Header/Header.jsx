@@ -2,21 +2,21 @@ import React, { useState } from 'react'
 import logo from "../../assets/logo.svg"
 import menu from "../../assets/menu.svg"
 import cross from "../../assets/cross.png"
-
 import classes from './Header.module.css'
+import { CustomButton } from '../CustomButton/CustomButton'
 const Header = () => {
     const [menuItems, setMenuItems] = useState(false)
     return (
         <div className={classes.header}>
             <div className={classes.header_top}>
                 <div className={classes.header_contact}><p>massshipping@mail.com</p> <span>+1 (333) 000-0000</span></div>
-                <button>GET QUOTE</button>
+                <CustomButton className={classes.quote_btn} fontSize="1.125rem">Get Quote</CustomButton>  
             </div>
             <div className={classes.header_bottom}>
                 <img className={classes.logo} src={logo} alt="logo" />
-                <div className={menuItems ?`${classes.active_menus}` : `${classes.menus}`}>
+                <div className={menuItems ? `${classes.active_menus}` : `${classes.menus}`}>
                     <ul>
-                        <li style={{ color:'#1195D6'}}>HOME</li>
+                        <li style={{ color: '#1195D6' }}>HOME</li>
                         <li>ABOUT US</li>
                         <li>SERVIDES</li>
                         <li>GALLERY</li>

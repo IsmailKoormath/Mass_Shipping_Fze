@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
 }
 :root {
-  --dark-blue: #121D50;
+  --dark-blue: #121d50;
   --primary-white: #fff;
 }

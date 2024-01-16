@@ -1,0 +1,75 @@
+.aboutUsCard {
+  width: 22.9rem;
+  padding: 0 0.5rem;
+  height: 10rem;
+  border-radius: 0.75rem;
+  background: var(--dark-blue);
+  color: var(--primary-white);
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 130%; /* 2.03125rem */
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.aboutUsCard span {
+  font-size: 3rem;
+  font-weight: 700;
+  border-right: 0.125rem dashed #edf0f3;
+  padding: 0.5rem 1rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .aboutUsCard {
+    width: 100%;
+    height: 9rem;
+    font-size: 1.25rem;
+  }
+  .aboutUsCard span {
+    font-size: 2.75rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .aboutUsCard {
+    width: 100%;
+    height: 9rem;
+    flex-direction: column;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .aboutUsCard span {
+    padding: 0;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .aboutUsCard {
+    height: 9rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.125rem;
+    text-align: left;
+    padding: 0 1rem;
+  }
+  .aboutUsCard span {
+    border-right: 0.0625rem dashed #edf0f3;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .aboutUsCard {
+    height: 8rem;
+    font-size: 0.875rem;
+  }
+  .aboutUsCard span {
+    font-size: 2rem;
+  }
+}
