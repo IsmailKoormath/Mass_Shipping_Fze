@@ -1,0 +1,50 @@
+.TestMonials {
+  width: 100%;
+  min-height: 66.5rem;
+  height: 100%;
+  padding: 6.8rem 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EDF0F3;
+  gap: 7.12rem;
+}
+.TestMonials_section {
+  display: flex;
+  flex-direction: column;
+}
+.client_imgContainer {
+  position: relative;
+  margin-top: 3rem;
+  max-width: 32.9375rem;
+  height: 22.625rem;
+  background: url("../../assets/speak-client.png") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.75rem;
+}
+.client_imgContainer img {
+  position: absolute;
+  left: 26rem;
+  top: -4rem;
+}
+@media only screen and (max-width: 1300px) {
+  .client_imgContainer img {
+  position: absolute;
+  width: 5rem;
+  left: 3rem;
+  top: 2rem;
+}
+}
+@media only screen and (max-width: 1000px) {
+  .TestMonials {
+    flex-wrap: wrap;
+
+  }
+  .client_imgContainer img {
+  position: absolute;
+  width: 5rem;
+  left: 3rem;
+  top: 2rem;
+}
+}
