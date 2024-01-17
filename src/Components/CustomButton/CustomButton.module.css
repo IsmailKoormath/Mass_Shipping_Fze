@@ -7,7 +7,9 @@
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  letter-spacing: 0.10688rem;
   transition: all 0.3s ease-in;
+  font-size: 1.125rem;
 }
 .customButton:hover {
   background: var(--dark-blue);
