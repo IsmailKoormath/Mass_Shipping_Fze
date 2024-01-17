@@ -1,0 +1,227 @@
+.contactUS_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6.5rem 0;
+  background: var(--primary-white);
+  gap: 6.19rem;
+}
+.first_section {
+  max-width: 30.0625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.details_container {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.25rem;
+}
+.details_card {
+  width: 27.31rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  border-bottom: 0.0625rem dashed #5c6c7b;
+  padding-bottom: 1.25rem;
+}
+.details_card:last-child {
+  border: none;
+}
+.icon_container {
+  width: 6.625rem;
+  height: 6.625rem;
+  border-radius: 0.5rem;
+  background: #1195d6;
+  padding: 1.25rem;
+}
+.icon_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.details label {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-blue);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.details span {
+  margin-top: 0.25rem;
+  color: var(--dark-blue);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form_container {
+  width: 35rem;
+  height: 41rem;
+  border-radius: 0.75rem;
+  background: #edf0f3;
+  padding: 4.125rem;
+}
+.form_heading {
+  color: var(--dark-blue);
+  font-size: 1.5625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form_container form {
+  margin-top: 2.85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form_container form label {
+  margin-top: 1.25rem;
+  color: var(--dark-blue);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.08313rem;
+  text-transform: uppercase;
+}
+.form_container form input {
+  margin-top: 0.35rem;
+  width: 100%;
+  padding: 1.125rem 1.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background: var(--primary-white);
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.form_container form input::placeholder {
+  color: #5c6c7b;
+  font-size: 0.75rem;
+}
+.submit_btn {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  padding: 0.875rem 2.5rem;
+  letter-spacing: 0.10688rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .contactUS_main {
+    padding: 6.5rem 5%;
+    gap: 4rem;
+  }
+  .details_container {
+    margin-top: 2rem;
+  }
+  .details_card {
+    max-width: 27.31rem;
+    width: 100%;
+    gap: 2rem;
+  }
+  .icon_container {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+  }
+  .details label {
+    font-size: 1rem;
+  }
+  .details span {
+    font-size: 1.125rem;
+  }
+  .form_container {
+    width: 50%;
+    min-width: 50%;
+    height: auto;
+    padding: 3rem;
+  }
+  .form_heading {
+    font-size: 1.25rem;
+  }
+  .form_container form {
+    margin-top: 1.85rem;
+  }
+  .form_container form input::placeholder {
+    color: #5c6c7b;
+    font-size: 0.75rem;
+  }
+  .submit_btn {
+    font-size: 0.875rem;
+    padding: 0.785rem 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contactUS_main {
+    padding: 5rem 5%;
+    gap: 3rem;
+  }
+  .details_card {
+    gap: 1.5rem;
+  }
+  .icon_container {
+    width: 4rem;
+    height: 4rem;
+    padding: 0.875rem;
+  }
+  .form_container {
+    padding: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .contactUS_main {
+    padding: 4rem 5%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .first_section {
+    max-width: 100%;
+  }
+  .details_container {
+    width: 100%;
+  }
+  .details_card {
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  .icon_container {
+    width: 3.875rem;
+    height: 3.875rem;
+    padding: 0.785rem;
+  }
+  .form_container {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  .form_heading {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  .form_container form label {
+    font-size: 0.785rem;
+  }
+  .form_container form input {
+    padding: 1rem;
+  }
+  .submit_btn {
+    margin-top: 1.25rem;
+    font-size: 0.875rem;
+    padding: 0.65rem 2rem;
+  }
+}

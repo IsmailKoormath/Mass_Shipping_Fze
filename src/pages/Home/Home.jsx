@@ -7,6 +7,8 @@ import Video from '../../Components/VideoSction/Video'
 import { HowItWorks } from '../../Components/HowItWorks/HowItWorks'
 import { Clients } from '../../Components/Clients/Clients'
 import TestMonials from '../../Components/TestMonials/TestMonials'
+import Footer from '../../Components/Footer/Footer'
+import { ContactUS } from '../../Components/ContactUS/ContactUS'
 
 export const Home = () => {
     return (
@@ -19,6 +21,8 @@ export const Home = () => {
             <HowItWorks />
             <Video />
             <TestMonials />
+            <ContactUS/>
+            <Footer />
         </div>
     )
 }
